@@ -9,538 +9,198 @@
 5.
 
 <!DOCTYPE html>
+<html lang="en" moznomarginboxes>
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Metadata -->
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Cardo|Montserrat:300,400,500&amp;subset=latin-ext" crossorigin="anonymous" />
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" integrity="sha256-oSrCnRYXvHG31SBifqP2PM1uje7SJUyX0nTwO2RJV54=" crossorigin="anonymous" />
+        <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous" />
+        <!-- Custom Styles -->
+        <link rel="stylesheet" type="text/css" href="./styles.css" />
+        <title>Denis Ratskov CV</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body class="letter">
+        <section id="save">
+            <section class="sheet">
+                <aside>
+                    <a href="https://rs.school/js/">
+                        <img src="https://github.com/denisratskov/rsschool-cv/blob/gh-pages/dImWmNTua70.jpg?raw=true" alt="rs.school"> 
+                    </a>
+                    <section class="contact">
+                        <h6>Contact</h6>
+                        <ul>
+                            <li>
+                                <p><i class="fa fa-map-marker-alt" title="Location"></i> BY, Minsk</p>
+                            </li>
+                            <li>
+                                <p><i class="fa fa-phone" title="Cell phone"></i> <a href="tel:+375336624300">+375336624300</a></p>
+                            </li>
+                            <li>
+                                <p><i class="fa fa-envelope" title="Email"></i> <a href="mailto:denisratskov@gmail.com">denisratskov@gmail.com</a></p>
+                            </li>
+                            <li>
+                                <p><i class="fa fa-globe-americas" title="Website"></i> <a href="https://denisratskov.tk">denisratskov.tk</a></p>
+                            </li>
+                            <li>
+                                <p><i class="fab fa-github" title="GitHub"></i> <a href="https://github.com/denisratskov">github.com/denisratskov</a></p>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="skills">
+                        <h6>Others</h6>
+                        <ul>
+                            <li><span>Music Producer</span></li>
+                            <li><span>Energy Profession</span></li>
+                            <li><span>Music Engineer</span></li>
+                            <li><span>DJ</span></li>
+                        </ul>
+                    </section>
+                    <section class="skills">
+                        <h6>Technologies</h6>
+                        <ul>
+                            <li><span>JS</span></li>
+                            <li><span>Kotlin</span></li>
+                            <li><span>HTML</span></li>
+                            <li><span>CSS</span></li>
+                            <li><span>Ableton</span></li>
+                            <li><span>Pyton</span></li>
+                        </ul>
+                    </section>
+                    <section class="skills">
+                        <h6>Web - Pages - Official</h6>
+                        <ul>
+                            <li><span>http://www.denisratskov.tk/</span></li>
+                            <li><span>http://djratek.tilda.ws/</span></li>
+                            <li><span>https://ratskov.wordpress.com/</span></li>
+                            <li><span>denisratskov.wixsite.com/djratek</span></li>
+                        </ul>
+                    </section>
+                    <section class="skills">
+                        <h6>Web - Pages - Contact</h6>
+                        <ul>
+                            <li><span>https://vk.com/denisratskov/</span></li>
+                            <li><span>https://vk.com/djratek/</span></li>
+                            <li><span>https://promodj.com/djratek</span></li>
+                        </ul>
+                    </section>
+                    <section class="references">
+                    </li>                 
+                    <li>
+                        <a href="https://github.com/denisratskov">
+                            <img width="40" height="40" src="https://avatars.githubusercontent.com/u/86842448?s=400&v=4" alt="github"> 
+                        </a>
+                    </li>
 
-  <html lang="en">
+                    </section>
+                </aside>
+                <section>
+                    <header class="name" aria-label="Denis Ratskov">
+                        <a href="https://denisratskov.tk">
+                            <svg width="257px" height="35px" viewBox="0 0 257 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="Montserrat-Regular, Montserrat" font-size="48" font-weight="normal">
+                                    <g id="Letter" transform="translate(-54.000000, -140.000000)" fill="#484848">
+                                        <text id="DENIS-RATSKOV">
+                                            <tspan x="54.728" y="174">RATSKOV</tspan>
+                                        </text>
+                                    </g>
+                                </g>
+                            </svg>
+                        </a>
+                        <h6>Front-end and Android Engineer</h6>
+                        <hr />
+                    </header>
+                    <section>
+                        <section class="summary">
+                            <h6>Summary</h6>
+                            <p>
+                                Hi! My name is Denis! I am an engineer and a musician by education, I wanted to change something in my life, I decided to try myself in programming, but I have already made a website for myself .. At the moment, I know a little ntml and css, according to JS, the script learned the syntax, started with python and also planned to study testing and Kotlin for android.. 
+                            </p>
+                        </section>
+                        <section class="experience">
+                            <h6>Experience</h6>
+                            <ol>
+                                <li>
+                                    <header>
+                                        <p class="sanserif">Start Software Engineer</p>
+                                        <time>2021 – Present</time>
+                                    </header>
+                                    <ul>
+                                        <li>Starting on Epam course - stage0</li>
+                                        <li>Ending course ITDVN - JS Started - 86% of sertificate</li>
+                                        <li>Ending course ITEA online on Html & Css - give sertificate</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <header>
+                                        <p class="sanserif">Languages 1</p>
+                                        <time>Past - Present</time>
+                                    </header>
+                                    <span>English</span>
+                                    <ul>
+                                        <li>A1+</li>
+                                        <li>pull up to A2</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <header>
+                                        <p class="sanserif">Languages 2</p>
+                                        <time>Past - Present</time>
+                                    </header>
+                                    <span>Russian</span>
+                                    <ul>
+                                        <li>Main Language</li>
+                                        <li>Very Goog</li>
+                                        <li>native Belarusian and understanding of Ukrainian</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <header>
+                                        <p class="sanserif">Technical Skills</p>
+                                        <time>Past - Present</time>
+                                    </header>
+                                    <ul>
+                                        <li>HTML, CSS</li>
+                                        <li>JavaScript</li>
+                                        <li>Git, VScode</li>
+                                        <li>Tilda, Wordpress</li>
+                                        <li>Windows Software</li>
+                                        <li>Pyton</li>
+                                        <li>Kotlin</li>
+                                        <li>Android Software</li>
+                                        <li>QA Testing</li>  
+                                    <ul>
+                                </li>
+                                <li>
+                                    <header>
+                                            alert("Ура")
+                                    <ul>
+                                </li>
+                            </ol>
 
-  <head>
-  <!--начинаем CSS-->
+                        </section>
+                        <section class="education">
+                            <footer>
+                                    <a href="https://rs.school/js/">
+                                        <img width="100" height="40" src="https://rs.school/images/rs_school_js.svg" alt="rs.school"> 
+                                    </a>
+                                    <footer1>
+                                    <time>2021</time>
+                                    </footer1>
+                            </footer>
+                        </section>
+                    </section>
+                </section>
+            </section>
+        </section>
 
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
-    <style>
-
-    html, body , p {
-    padding: 0;
-    margin: 0;
-    }
-
-    p, li {
-      font-family: 'Times New Roman', Times, serif;
-    }
+        </main>
     
-    h1 {
-      font-size: 40px;
-    }
-
-    h2 {
-      color: rgb(98, 98, 180);
-      font-size: 36px;
-    }
-
-    .bold-text {
-      font-weight: bold;
-    }
-
-    .cyan-text {
-      color:rgb(255, 187, 0)
-    }
-
-    .white-text {
-      color:rgb(255, 255, 255)
-    }
-
-    .golg-text {
-      color:rgb(223, 224, 151)
-    }
-    
-    .purple {
-      background:rgb(73, 24, 165);
-    }
-
-    .block1 {
-      width: 900px;
-      margin:auto;
-      padding-top: 50px;
-      padding-bottom: 50px;
-    }
-    
-    .block10 {
-      color: gold;
-      box-shadow: 20px 15px 15px 15px rgba(235, 229, 229, 0.863) inset;
-      text-align: center;
-    }
-
-    .block11 {
-      color: gold;
-      box-shadow: 20px 15px 50px 0px rgba(235, 229, 229, 0.863) inset;
-    }
-    
-     .block21 {
-      text-align: center;
-    }
-    
-    .block1.no-padding-top {
-      padding-top: 0;
-    }
-
-    .nav {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 40px;
-      letter-spacing: 6px;
-      font-size: 10px;
-    }
-
-    .nav li {
-      display: inline-block;
-      margin: 5px;
-      padding: 5px;
-      cursor: pointer;
-    }
-
-    .nav li a {
-      text-decoration: none;
-      color: darkseagreen;
-    }
-
-    .exp {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-      color:rosybrown;
-    }
-
-    .exp li {
-      list-style: none;
-      padding: 0;
-      margin: 10px 0;
-      color:rosybrown;
-    }
-
-    .achievemnts {
-    list-style-image: url(./img-ok1\ -\ копия.png);
-    }
-
-    .str-point {
-
-      list-style-image: url(./img-ok2\ -\ копия.png);
-
-    }
-
-    .logo-img {
-    width: 980px;
-    }
-
-    .name-tag {
-    font-size: 28px;
-    letter-spacing: 10px;
-    }
-
-    .paragraph {
-      margin: 20px 0;
-      font-size: 18px;
-      line-height: 30px;
-    }
-
-    .hands-bg {
-      background-image: url("./wallpaper2.jpg");
-      background-position: center;
-      background-size: cover;
-      font-size: 46px;
-    }
-
-    .circle-img {
-    border-radius: 50%;
-    }
-
-    .word-spacing {
-    letter-spacing: 6px;
-    }
-
-    .img-container {
-      display: flex;
-      justify-content: space-between;
-      margin-top: 40px;
-    }
-
-    .img-container2 {
-      display: flex;
-      justify-content: left;
-      margin-top: 100;
-      height: 1120;
-      width: 01;
-    }
-
-    #contact-form {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-end;
-    }
-
-    #contact-form input, #contact-form textarea{
-      padding: 20px;
-      margin-bottom: 20px;
-      font-size: 20px;
-      font-weight: bold;
-      outline: none;
-      width: 853px;
-      border: none;
-      border: 3px solid cornflowerblue;
-    }
-
-    textarea {
-      font-family: 'Times New Roman', Times, serif;
-      height: 100px;
-    }
-
-    input#submit {
-      width: 350px;
-      cursor: pointer;
-      background: rgb(189, 94, 113);
-      color: gold;
-      font-size: 24px;
-      box-shadow: -20px -15px 15px 0px rgba(239, 255, 15, 0.863) inset;
-    }
-
-    #gototop {
-      text-decoration: none;
-      display: inline-block;
-      height: 75px;
-      width: 75px;
-      background: rgb(224, 204, 86);
-      font-size: 45px;
-      font-weight: bold;
-      text-align: center;
-      border: 3px solid cornflowerblue;
-      color: rgb(228, 217, 217);
-      position: fixed;
-      bottom: 80px;
-      left: 200px;
-      box-shadow: 20px 15px 15px 0px rgba(235, 229, 229, 0.863) inset;
-    }
-
-    .other {
-      font-size: 12px;
-      text-align: center;
-      background: gold;
-    }
-
-    .logo-container {
-      width: 890px;
-      height: 620px;
-      background-image: url("./img/+Dsc_1568.jpg");
-      background-size: cover;
-      box-shadow: 0px -120px 50px 0px rgba(73, 0, 165, 0.9) inset;
-    } 
-
-    .text-overlap {
-      position: relative;
-      padding: 0 60px ;
-      top: -90px;
-      margin: 0;
-    }
-
-  </style>
-  <!--закончили CSS-->
-  </head>
-
-<body>
-<!--начинается верстка-->
-  <div>
-    <div class="purple">
-      <div class="block1" id="navigation">
-
-        <ul class="cyan-text nav" style="padding-top: 10px;">
-        <!--верхний блок-->
-         <li>
-           <a href="https://promodj.com/djratek/music">
-           <span class="bold-text cyan-text name-tag">Д е н и C<br> 
-            РАТЬКОВ </span></a> 
-         </li>
-
-         <li
-           class="cyan-text">
-           <a href="#experience">
-              Опыт
-            </a>
-         </li>
-          
-         <li
-           class="cyan-text">
-            <a href="#achhievemnts">
-              Достижения
-            </a>
-         </li>
-        
-         <li
-           class="cyan-text">
-            <a href="#strong">
-             Сильные стороны
-           </a>
-         </li>
-          
-         <li
-           class="cyan-text">
-           <a href="#private">
-             Биография
-            </a>
-         </li>
-          
-          <li
-            class="cyan-text">
-            <a href="#contact">
-              Контакты
-            </a>
-         </li>
-        
-        </ul>
-
-        <!--img classs="logo-img" src=./img/+Dsc_1568.jpg alt="Портрет"> -->
-        <!--добавляем картинку с размытием> -->
-        <div class="logo-container"></div>
-        
-        <!--добавляем текст, который будет внутри> -->
-        <p class="golg-text paragraph text-overlap">
-         <span class="cyan-text">Я</span> не только начинающий Full-Stack разработчик, и не только Android developer! Читайте ниже..
-        </p>
-        <!--описание к картинке-->
-        <h1 class="white-text" style="margin-top: 0;"><span class="cyan-text">Showбиз :</span> продюссер - музыкант - DJ - битмейкер</h1>       
-      
-      </div>
-
-    </div>
-        
-    <div class="block1" id="experience">
-    <!--блок1-->
-
-     <h2>
-       Мой Опыт работы
-      </h2>
-
-      <ol class="cyan-text str-point">
-      
-       <li>
-         DJ - <span class="bold-text"> 15 лет 
-       </li>
-
-       <li>
-         Sound Producer - <span class="bold-text"> 5 лет
-       </li>
-
-       <li>
-         Frontend/Backend/QA/Android - 0.5 года
-       </li>
-       
-       <li>
-         Testing Mobile Camera & Camparison - 10 лет
-       </li>
-       
-      </ol>
-
-    </div>
-
-    <div class="block1 no-padding-top" id="achhievemnts">
-    <!--блок2-->
-
-      <h2>
-       Мои Достижения
-      </h2>
-
-      <ul class="cyan-text str-point">
-  
-       <li><span class="bold-text">
-         Лучший DJ Белоруссии</span>
-       </li>
-  
-       <li><span class="bold-text">
-         Европейский уровень техники сведения
-       </li>
-  
-       <li><span class="bold-text">
-         написание музыки только на Ableton
-       </li>
-
-       <li><span class="bold-text">
-        Сверстал себе сам сайты 
-      </li>
-
-      </ul>
-
-    </div>
-
-    <div class="block1 no-padding-top" id="strong">
-         <h2>
-             
-       Мои сайты
-      </h2>
-
-      <ul class="cyan-text "exp" str-point">
-
-      
-       <li>
-         promodj.com/djratek/music САЙТ С МУЗЫКОЙ
-       </li>
-
-       <li>
-         https://ratskov.wordpress.com САЙТ ПО ПРОГРАММИРОВАНИЮ(скоро лейбл)
-       </li>
-
-       <li>
-         http://djratek.tilda.ws/ ДЖ САЙТ
-       </li>
-       
-       <li>
-         https://denisratskov.github.io/rsschool-cv/cv САЙТ ПО ПРОГРАММИРОВАНИЮ
-       </li>
-
-      </ul>
-
-    </div>
-
-    <div class="block1 no-padding-top" id="achhievemnts">
-    <!--блок2-->
-
-    <!--блок3-->
-
-      <h2>
-        Сильные стороны
-      </h2>
-
-      <ul class="cyan-text str-point">
-  
-       <li>
-         уверенность и упорство
-       </li>
-
-  
-       <li>
-         стремление быть лучшим
-       </li>
-
-       <li>
-         быстро учусь, пью - не пьянею
-       </li>
-
-      <li>
-        loving Tata
-      </li>
-
-      </ul>
-
-    </div>
-    
-    <div class="hands-bg" id="deviz">
-    <!--просто картинка-->
-
-      <div class="block1 block11">
-
-        <p>
-          <i>Можно быть первым - и это УЖЕ доказано!</i>
-        </p>
-        
-
-      </div>
-
-    </div>
-
-    <div class="block1 block10" id="private">
-    <!--блок4-->
-
-      <h2>
-        Byography (UA)
-      </h2>
-      
-      <p class="paragraph">
-        Hello! My name is Denis! Since childhood I have been listening to only high-quality music, which is probably why I became a DJ! He was a member of the DJ jury many times! From some time ago I started producing young and talented ones, as well as writing author's tracks and beats and lyrics to them! And in general, I have been a lot of people in my life: this is a group leader and mentor, a hairdresser and a baker and a chief engineer, a chief power engineer and an occupational safety and health engineer, a master of video surveillance, he was versed in technology and electronics, as well as computers, his own I created many acoustic systems with my own hands, I myself calculated and measured the whole thing, all the lighting equipment that is connected with LEDs, folded the bike under myself and drove thousands of kilometers on it, I love athletics, and so I am GIK, I love new and fresh technologies, I mainly test mobile cameras, and so I'm a simple person like everyone else, a relapsing and alcoholic and a joker, I love humor, fell in love with a neighbor, decided to improve and become a developer, in the future - this is Android on Kotlin! I love bourbon, dark beer and dark chicks before!
-      </p>
-
-      <div class="img-container">
-
-        <a href="https://vk.com/djratek">
-        <img class="circle-img" src=./img/no1.jpg alt="pictire1">
-        </a>
-        <img class="circle-img" src=./img/no2.jpg alt="pictire2">
-        <img class="circle-img" src=./img/no3.jpg alt="pictire3">
-      
-      </div>
-
-    </div>
-    
-    <div class="block1 block21 no-padding-top" id="contact">
-
-      <h2>
-       Контакты
-      </h2>
-
-      <form action="/" method="POST" id="contact-form">
-        <input type="text" name="FIO" placeholder="ФИО">
-        <input type="email" name="email">
-        <textarea name="message" placeholder="Сообщение"></textarea>
-        <input type="submit" name="submit" id="submit"
-      </form>
-
-      <div class="block1 block21 no-padding-top" id="partner">
-
-        <h2>
-          Партнеры
-        </h2>
-
-        <a href="https://www.beatport.com/artist/ratek-fleek/753821">
-        <img class="circle-img" src=./img/beatport.png alt="pictire11">
-        </a>
-        <a href="https://promodj.com/djratek">
-        <img class="circle-img" src=./img/promodj.png alt="pictire22">
-        </a>
-        <a href="https://soundcloud.com/djratek">
-        <img class="circle-img" src=./img/soundcloud.png alt="pictire33">
-        </a>
-        <a href="https://music.yandex.ru/artist/5406864">
-        <img class="circle-img" src=./img/яндекс.png alt="pictire44">
-        </a>
-        <a href="https://podcasts.apple.com/ru/podcast/vip-electro-dj-ratek/id963580874">
-        <img class="circle-img" src=./img/apple.png alt="pictire55">
-        </a>
-        <a href="https://artists.spotify.com/c/artist/3KfNOE8a2fU5oetyNPpWGD/profile/overview">
-        <img class="circle-img" src=./img/spotify.png alt="pictire66">
-        </a>
-        <a href="https://vk.com/freakydeejays">
-        <img class="circle-img" src=./img/freaky.jpg alt="pictire77">
-        </a>
-        <a href="https://www.djrating.ru/dj/9094#">
-        <img class="circle-img" src=./img/топ100.jpg alt="pictire88">
-        </a>
-
-      </div>
-      
-
-      <a id="gototop" href="#navigation">
-        ∧
-      </a>
-
-    </div>
-
-  </div>
-  <!--закончили верстку, ниже JS-->
-  
-  <div class="other"> Мой сайт 2021@info связь со мной VK: <a href="https://www.vk.com/denisratskov" target=_blank">@denisratskov</a> Phone: +375 33 6624300 
-  (email) <a href="mailto:denisratskov@gmail.com"Mailto target="_blank">@denisratskov</a></div>
-  
-  <script>
-    let value = prompt("НЕТ", "Вам есть 18?");
-    console.log(`Вы ввели значение - ${value}`)
-    alert("Привет, если ты попал на мой сайт, то тебе очень повезло!")
-    //типа того что-то, а дальще - больше
-  </script>
-
-</body>
-
+        <!-- Script -->
+        <script type="text/javascript" src="./index.js"></script>
+    </body> -->
 </html>
 
 
